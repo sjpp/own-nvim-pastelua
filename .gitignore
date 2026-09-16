@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!init.lua
+!README.md
+!LICENSE
+
+# ...even if they are in subdirectories
+!*/
