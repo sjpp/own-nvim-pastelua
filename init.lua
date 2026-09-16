@@ -26,6 +26,7 @@ vim.pack.add {
     { src = 'https://github.com/romgrk/barbar.nvim' },                          -- Display buffers as tabs
     { src = 'https://github.com/nvim-telescope/telescope.nvim' },               -- Search for files or strings in projects
     { src = 'https://github.com/nvim-telescope/telescope-fzf-native.nvim' },    -- Fuzzy search in telescope
+    { src = 'https://github.com/vladdoster/remember.nvim' },                    -- Reopen files at same position
  }
 
 -- ============================================================================
@@ -257,6 +258,12 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {
 -- END Telescope config
 -- ========================
 
+-- ========================
+-- BEGIN Remember config
+require'remember'.setup {}
+-- END Remember config
+-- ========================
+--
 -- ============================================================================
 -- END Nvim init file
 -- ============================================================================
